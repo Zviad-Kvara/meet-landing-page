@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f2f2;
+  font-family: "Red Hat Display";
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+.main-tablet-img {
+  display: none;
+}
+.main-img-left {
+  display: none;
+}
+.main-img-right {
+  display: none;
+}
+.meet-logo {
+  align-self: center;
+  margin-top: 48px;
+  height: 28px;
+  width: 119px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+.main-txt-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  width: 260px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  margin-top: 48px;
+  color: #28283d;
+}
+.main-paragraph {
+  width: 327px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #87879d;
+  margin-top: 24px;
+}
+.buttons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.download-btn {
+  height: 58px;
+  width: 193px;
+  background: #4d96a9;
+  border-radius: 29px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 32px;
+  color: #ffffff;
+  border: none;
+}
+span {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8fe3f9;
+}
+.whats-btn {
+  height: 58px;
+  width: 139px;
+  background: #855fb1;
+  border-radius: 29px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 32px;
+  color: #ffffff;
+  border: none;
+}
+.numbers-div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.stick {
+  height: 84px;
+  width: 1px;
+  margin-top: 64px;
+}
+.number1 {
+  position: absolute;
+  bottom: 19px;
+}
+.circle {
+}
+.img-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 130px;
+  gap: 24px;
+}
+.woman-img {
+  width: 151px;
+  border-radius: 8px;
+}
+.grannies-img {
+  width: 151px;
+  border-radius: 8px;
+}
+.man-img {
+  width: 151px;
+  border-radius: 8px;
+}
+.black-man-img {
+  width: 151px;
+  border-radius: 8px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 56px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4d96a9;
+}
+h2 {
+  min-width: 327px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 24px;
+  color: #28283d;
+  text-align: center;
+}
+.section-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879d;
+  margin-top: 32px;
+}
+.numbers-div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.circle2 {
+  position: absolute;
+  bottom: -52px;
+}
+.number2 {
+  position: absolute;
+  bottom: -29px;
+}
+
+.stick2 {
+  margin-top: 64px;
+  height: 84px;
+  width: 1px;
+}
+footer {
+  background-image: url("./images/girl.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 428px;
+  min-width: 375px;
+  background-color: #4d96a9;
+}
+.girl-img {
+  height: 428px;
+  width: 375px;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 64px;
+  text-align: center;
+  color: #fafafa;
+}
+.footer-paragraph {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 24px;
+  text-align: center;
+  color: #fafafa;
+}
+.footer-btn {
+  height: 58px;
+  width: 193px;
+  border: none;
+  border-radius: 29px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #855fb1;
+}
+.footer-span {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #d9b8ff;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+  }
+
+  header {
+    gap: 66px;
+  }
+  .main-img {
+    display: none;
+  }
+  .main-tablet-img {
+    display: block;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    min-width: 339px;
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 72px;
+    text-align: center;
+  }
+  .main-paragraph {
+    min-width: 457px;
+    text-align: center;
+  }
+  .buttons-div {
+    flex-direction: row;
+    gap: 16px;
+  }
+  .numbers-div1 {
+    position: relative;
+  }
+
+  .stick {
+    margin-top: 80px;
+  }
+  .number1 {
+    bottom: 20px;
+  }
+  .circle {
+  }
+  .img-div {
+    gap: 11px;
+  }
+  .woman-img {
+    width: 164px;
+  }
+  .grannies-img {
+    width: 164px;
+  }
+  .man-img {
+    width: 164px;
+  }
+  .black-man-img {
+    width: 164px;
+  }
+
+  h3 {
+    margin-top: 48px;
+  }
+  h2 {
+    width: 445px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 16px;
+  }
+  .section-paragraph {
+    width: 573px;
+  }
+  .numbers-div2 {
+    position: relative;
+  }
+
+  footer {
+    background-image: url("./images/girl-tablet.png");
+    min-width: 768px;
+  }
+
+  h4 {
+    width: 500px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .footer-paragraph {
+    width: 573px;
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-img-left {
+    display: block;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: -32px;
+  }
+  .main-img-right {
+    display: block;
+    width: 400px;
+    position: absolute;
+    right: -37px;
+    top: 150px;
+  }
+
+  .main-tablet-img {
+    display: none;
+  }
+
+  h1 {
+    min-width: 445px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .main-paragraph {
+    min-width: 540px;
+    margin-top: 34px;
+  }
+
+  .download-btn:hover {
+    background: #71c0d4;
+    cursor: pointer;
+  }
+  span {
+  }
+  .whats-btn:hover {
+    background: #b18bdd;
+    cursor: pointer;
+  }
+  .stick {
+    margin-top: 117px;
+  }
+
+  .img-div {
+    gap: 30px;
+  }
+  .woman-img {
+    width: 255px;
+  }
+  .grannies-img {
+    width: 255px;
+  }
+  .man-img {
+    width: 255px;
+  }
+  .black-man-img {
+    width: 255px;
+  }
+
+  h3 {
+    margin-top: 80px;
+  }
+
+  .section-paragraph {
+    width: 510px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .stick2 {
+    margin-top: 72px;
+  }
+  footer {
+    background-image: url("./images/girl-desktop.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 308px;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+  }
+
+  h4 {
+    min-width: 350px;
+    text-align: inherit;
+    margin: 116px 0 104px 120px;
+  }
+  .footer-paragraph {
+    width: 350px;
+    padding: 0;
+    text-align: inherit;
+  }
+  .footer-btn {
+    font-family: "Red Hat Display";
+    margin-left: 132px;
+  }
+  .footer-btn:hover {
+    background: #b18bdd;
+    cursor: pointer;
+  }
+}
